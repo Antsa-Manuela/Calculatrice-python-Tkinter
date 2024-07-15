@@ -8,7 +8,6 @@ resu
 dele
 (4 colonnes)
 '''
-import math
 from tkinter import *
 
 expression=""
@@ -54,7 +53,7 @@ resultat=Label(interface,bg="#1f1f1f",fg="#fff", textvariable=equation, heigh="3
 resultat.grid(columnspan=4)
     
     #boutons
-boutons = [1,2,3,"*",4,5,6,"-",7,8,9,"+",0,".","/","=","(",")","**",""]
+boutons = [1,2,3,"*",4,5,6,"-",7,8,9,"+",0,".","**","/","(",")","","="]
     
 ligne = 1
 colonne = 0
