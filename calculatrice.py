@@ -7,6 +7,8 @@ resu
 ^r()
 dele
 (4 colonnes)
+
+
 '''
 from tkinter import *
 
